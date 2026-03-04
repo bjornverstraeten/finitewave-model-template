@@ -51,7 +51,7 @@ python -m pytest -q
 ├── example/
 │   └── model_example.py             # minimal script to run a short trace
 ├── tests/
-│   └── test.py                      # smoke test; reproducibility checks
+│   └── model_test.py                # smoke test; reproducibility checks
 ├── .gitignore
 ├── LICENSE                          # MIT
 ├── pyproject.toml                   # configuration file
@@ -63,6 +63,6 @@ Model state variables: description, units and ranges (optional)
 - `u` — ...
 
 ### Parameters
-Parameters and their defualt values
+Parameters and their default values
 - `par` - ...
 
